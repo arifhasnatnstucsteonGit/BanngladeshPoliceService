@@ -1,0 +1,54 @@
+package com.arifhasnat.bangladeshpoliceservice;
+
+
+import android.app.Activity;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class ZellandUpzila extends Activity{
+	TextView tv;
+	Typeface tf;
+	String dhaka[]={
+		    "Dhamrai Upazila (ধামরাই উপজেলা), suburuban and rural",
+		    "Dohar Upazila (দোহার উপজেলা), suburban and rural",
+		    "Keraniganj Upazila (কেরানীগঞ্জ উপজেলা), suburban",
+		    "Nawabganj Upazila (নবাবগঞ্জ উপজেলা), suburban and rural",
+		    "Savar Upazila (সাভার উপজেলা), suburban",
+            "Badda (বাড্ডা থানা)",
+		    "Biman Bandar (বিমান বন্দর থানা)",
+		    "Cantonment (ক্যান্টনমেন্ট থানা)",
+		    "Dhanmondi (ধানমন্ডি থানা)",
+		    "Demra (ডেমরা থানা)",
+		    "Kotwali (কোতয়ালী থানা)",
+		    "Gulshan (গুলশান থানা)",
+		    "Hazaribagh (হাজারীবাগ থানা)",
+		    "Kafrul (কাফরুল থানা)",
+		    "Kamringir Char (কামরাঙ্গীর চর থানা)",
+		    "Khilgaon (খিলগাঁও থানা)",
+		    "Lalbagh (লালবাগ থানা)",
+		    "Mugda (মুগদা থানা)",
+		    "Mirpur (মিরপুর থানা)",
+		    "Mohammadpur (মোহাম্মদপুর থানা)",
+		    "Motijheel (মতিঝিল থানা)",
+		    "Pallabi (পল্লবী থানা)",
+		    "Paltan",
+		    "Ramna (রমনা থানা)",
+		    "Sabujbagh (সবুজবাগ থানা)",
+		    "Shyampur (শ্যামপুর থানা)",
+		    "Sutrapur (সুত্রাপুর থানা)",
+		    "Tejgaon (তেজগাঁও থানা)",
+		    "Uttara (উত্তরা থানা)",
+};
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.zilla);
+		tv=(TextView) findViewById(R.id.textView1);
+		tf=Typeface.createFromAsset(getAssets(), "DroidSansFallback.ttf");
+		tv.setTypeface(tf);
+	}
+
+}

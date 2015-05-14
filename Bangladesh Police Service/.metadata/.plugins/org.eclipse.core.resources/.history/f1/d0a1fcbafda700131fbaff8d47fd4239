@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:background="@drawable/desigsn" >
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:id="@+id/Sevice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/de"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/teachersButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="124dp"
+                       
+                        android:text="Go To Bangladesh All Branch police Service Menu" />
+
+                 
+                 
+                </RelativeLayout>
+
+                 <RelativeLayout
+                    android:id="@+id/Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="392dp"
+                    android:background="@drawable/sm"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="324dp"
+                        android:layout_weight="2"
+                        android:text="Police online Service" />
+
+                    <Button
+                        android:id="@+id/studenttabButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="124dp"
+                        android:text="Go to the Student directory " />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/InGoogeMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="horizontal"
+                    android:background="@drawable/de"
+                    >
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

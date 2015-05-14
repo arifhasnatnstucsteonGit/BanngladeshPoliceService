@@ -1,0 +1,6 @@
+package com.arifhasnat.bangladeshpoliceservice;
+
+public class Word {
+
+	public static String word[]={};
+}

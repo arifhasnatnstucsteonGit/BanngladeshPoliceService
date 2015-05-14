@@ -1,0 +1,18 @@
+package com.arifhasnat.bangladeshpoliceservice;
+
+import com.google.android.gms.maps.GoogleMap;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+
+public class googlemap extends FragmentActivity{
+	GoogleMap gmap;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.gpsserv);
+	}
+
+}

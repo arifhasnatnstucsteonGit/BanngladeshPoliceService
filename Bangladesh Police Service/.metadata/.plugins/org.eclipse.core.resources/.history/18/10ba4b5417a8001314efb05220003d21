@@ -1,0 +1,16 @@
+package com.arifhasnat.bangladeshpoliceservice;
+
+import com.google.android.gms.maps.GoogleMap;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class googlemap extends Activity{
+	GoogleMap gmap;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+	}
+
+}
